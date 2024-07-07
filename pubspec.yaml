@@ -14,3 +14,12 @@ dependencies:
 dev_dependencies:
   json_serializable: ^6.8.0
   lints: ^3.0.0
+
+flutter_launcher_icons:
+  windows:
+    generate: true
+    image_path: "icon.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "icon.png"
